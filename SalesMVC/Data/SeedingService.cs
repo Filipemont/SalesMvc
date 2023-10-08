@@ -26,7 +26,7 @@ namespace SalesMVC.Data
             Department d1 = new Department(1, "Computers");
             Department d2 = new Department(2, "Electronics");
             Department d3 = new Department(3, "Books");
-            Department d4 = new Department(4, "Fashio");
+            Department d4 = new Department(4, "Fashion");
 
             Seller s1 = new Seller(1, "Bob Brown", "bob@gmail.com", new DateTime(1994, 04, 21), 1000.0, d1);
             Seller s2 = new Seller(2, "Antonio Jose", "antonio.j@gmail.com", new DateTime(1935, 01, 21), 1500.0, d2);
